@@ -1,15 +1,11 @@
 #ifndef STL_MAIN_H
 #define STL_MAIN_H
-#include <vector>
+#include <set>
 
-namespace vector_exercises {
+namespace set_exercises {
     using namespace std;
 
-    vector<int> initializeVector(int n);
-
-    vector<int> randomVector(int n);
-
-    void printVector(vector<int> &v);
+    set<int> initializeSet(int in);
 
     void ex1();
 
@@ -30,6 +26,12 @@ namespace vector_exercises {
     void ex9();
 
     void ex10();
+
+    void ex11();
+
+    void ex12();
+
+    void ex13();
 }
 
 #endif //STL_MAIN_H

@@ -1,15 +1,7 @@
 #ifndef STL_MAIN_H
 #define STL_MAIN_H
-#include <vector>
 
-namespace vector_exercises {
-    using namespace std;
-
-    vector<int> initializeVector(int n);
-
-    vector<int> randomVector(int n);
-
-    void printVector(vector<int> &v);
+namespace map_exercises {
 
     void ex1();
 
