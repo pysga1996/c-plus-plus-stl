@@ -2,14 +2,20 @@
 #define STL_MAIN_H
 #include <vector>
 
+typedef std::vector<char> char_array;
+
 namespace vector_exercises {
     using namespace std;
 
     vector<int> initializeVector(int n);
 
-    vector<int> randomVector(int n);
+    vector<int> randomIntVector(int n);
 
-    void printVector(vector<int> &v);
+    vector<string> randomStringVector(int n);
+
+    void printIntVector(vector<int> &v);
+
+    void printStringVector(vector<string> &v);
 
     void ex1();
 

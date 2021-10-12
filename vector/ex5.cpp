@@ -8,12 +8,12 @@ namespace vector_exercises {
     vector<int> sortVector(vector<int> v);
 
     void ex5() {
-        vector<int> v = randomVector(10);
+        vector<int> v = randomIntVector(10);
         cout << "Vector before sorting: ";
-        printVector(v);
+        printIntVector(v);
         v = sortVector(v);
         cout << "Vector after sorting: ";
-        printVector(v);
+        printIntVector(v);
     }
 
     vector<int> sortVector(vector<int> v) {
