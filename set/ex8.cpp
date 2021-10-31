@@ -1,4 +1,4 @@
 namespace set_exercises {
 
-    void ex8();
+    void ex8() {};
 }

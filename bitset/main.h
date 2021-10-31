@@ -1,7 +1,14 @@
 #ifndef STL_MAIN_H
 #define STL_MAIN_H
+#include <bitset>
+#include <vector>
+#include <iostream>
 
 namespace bitset_exercises {
+
+    using namespace std;
+
+    void printIntVector(vector<int> &v);
 
     void ex1();
 
@@ -11,7 +18,6 @@ namespace bitset_exercises {
 
     void ex4();
 
-    void ex5();
 }
 
 #endif //STL_MAIN_H

@@ -1,11 +1,16 @@
 #ifndef STL_MAIN_H
 #define STL_MAIN_H
+#include <vector>
 #include <set>
 
 namespace set_exercises {
     using namespace std;
 
     set<int> initializeSet(int in);
+
+    vector<int> randomIntVector(int n);
+
+    void printIntVector(vector<int> &v);
 
     void ex1();
 

@@ -1,4 +1,3 @@
-#include <iostream>
 #include "main.h"
 
 int main() {
@@ -18,9 +17,6 @@ int main() {
             break;
         case 4:
             bitset_exercises::ex4();
-            break;
-        case 5:
-            bitset_exercises::ex5();
             break;
         default:
             cout << "Exit" << endl;
