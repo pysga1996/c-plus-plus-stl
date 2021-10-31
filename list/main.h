@@ -11,6 +11,8 @@ namespace list_exercises {
 
     vector<int> initializeVector(int n);
 
+    vector<int> randomIntVector(int n);
+
     void printIntVector(vector<int> &v);
 
     void ex1();
@@ -33,7 +35,6 @@ namespace list_exercises {
 
     void ex10();
 
-    void ex11();
 }
 
 #endif //STL_MAIN_H

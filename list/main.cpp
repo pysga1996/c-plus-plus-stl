@@ -37,9 +37,6 @@ int main() {
         case 10:
             list_exercises::ex10();
             break;
-        case 11:
-            list_exercises::ex11();
-            break;
         default:
             cout << "Exit" << endl;
     }
