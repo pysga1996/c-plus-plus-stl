@@ -1,5 +1,3 @@
-#include <iostream>
-#include <vector>
 #include "main.h"
 
 namespace vector_exercises {

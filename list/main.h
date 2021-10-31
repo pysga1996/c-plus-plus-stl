@@ -1,10 +1,12 @@
 #ifndef STL_MAIN_H
 #define STL_MAIN_H
+#include <iostream>
 #include <list>
 #include <vector>
 #include <functional>
 
 namespace list_exercises {
+
     using namespace std;
 
     list<int> initializeList(int n);

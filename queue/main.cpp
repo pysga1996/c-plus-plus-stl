@@ -1,35 +1,34 @@
-#include <iostream>
 #include "main.h"
 
 int main() {
-    using namespace std;
+    using namespace queue_exercises;
     int cmd;
     cout << "Select a queue exercise:" << endl;
     cin >> cmd;
     switch (cmd) {
         case 1:
-            queue_exercises::ex1();
+            ex1();
             break;
         case 2:
-            queue_exercises::ex2();
+            ex2();
             break;
         case 3:
-            queue_exercises::ex3();
+            ex3();
             break;
         case 4:
-            queue_exercises::ex4();
+            ex4();
             break;
         case 5:
-            queue_exercises::ex5();
+            ex5();
             break;
         case 6:
-            queue_exercises::ex6();
+            ex6();
             break;
         case 7:
-            queue_exercises::ex7();
+            ex7();
             break;
         case 8:
-            queue_exercises::ex8();
+            ex8();
             break;
         default:
             cout << "Exit" << endl;

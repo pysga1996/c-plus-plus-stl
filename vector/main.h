@@ -1,5 +1,6 @@
 #ifndef STL_MAIN_H
 #define STL_MAIN_H
+#include <iostream>
 #include <vector>
 
 typedef std::vector<char> char_array;

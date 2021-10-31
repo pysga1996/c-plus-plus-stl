@@ -1,7 +1,4 @@
-#include <iostream>
-#include <list>
-#include <random>
-#include <vector>
+#include "main.h"
 
 namespace list_exercises {
     using namespace std;

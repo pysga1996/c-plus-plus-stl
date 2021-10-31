@@ -2,8 +2,10 @@
 #define STL_MAIN_H
 #include <vector>
 #include <set>
+#include <iostream>
 
 namespace set_exercises {
+
     using namespace std;
 
     set<int> initializeSet(int in);

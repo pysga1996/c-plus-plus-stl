@@ -1,22 +1,22 @@
 #include "main.h"
 
 int main() {
-    using namespace std;
+    using namespace bitset_exercises;
     int cmd;
     cout << "Select a bitset exercise:" << endl;
     cin >> cmd;
     switch (cmd) {
         case 1:
-            bitset_exercises::ex1();
+            ex1();
             break;
         case 2:
-            bitset_exercises::ex2();
+            ex2();
             break;
         case 3:
-            bitset_exercises::ex3();
+            ex3();
             break;
         case 4:
-            bitset_exercises::ex4();
+            ex4();
             break;
         default:
             cout << "Exit" << endl;

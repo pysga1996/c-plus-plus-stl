@@ -1,5 +1,4 @@
 #include "main.h"
-#include <iostream>
 
 namespace set_exercises {
 

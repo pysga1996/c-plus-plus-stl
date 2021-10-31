@@ -1,6 +1,3 @@
-#include <vector>
-#include <iostream>
-#include <random>
 #include "main.h"
 
 namespace vector_exercises {

@@ -1,6 +1,4 @@
 #include "main.h"
-#include <list>
-#include <vector>
 
 namespace list_exercises {
 

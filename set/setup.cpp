@@ -1,7 +1,4 @@
-#include <iostream>
-#include <vector>
-#include <set>
-#include <random>
+#include "main.h"
 
 namespace set_exercises {
     using namespace std;
