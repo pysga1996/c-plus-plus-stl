@@ -6,7 +6,7 @@ namespace set_exercises {
 
     void ex1() {
         vector<int> v = randomIntVector(10);
-        printIntVector(v);
+        printVector(v);
         cout << "Different elements in vector: " << differentNumbers(v) << endl;
     }
 

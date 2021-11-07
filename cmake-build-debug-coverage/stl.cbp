@@ -1,0 +1,605 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="stl"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/mnt/f/Programming/C++/stl/cmake-build-debug-coverage"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/f/Programming/C++/stl/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/f/Programming/C++/stl/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/f/Programming/C++/stl/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/f/Programming/C++/stl/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/mnt/f/Programming/C++/stl/cmake-build-debug-coverage"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/f/Programming/C++/stl/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/f/Programming/C++/stl/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/f/Programming/C++/stl/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/f/Programming/C++/stl/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bitset">
+				<Option output="/mnt/f/Programming/C++/stl/cmake-build-debug-coverage/bitset" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/f/Programming/C++/stl/cmake-build-debug-coverage"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/f/Programming/C++/stl/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 bitset"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/f/Programming/C++/stl/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/f/Programming/C++/stl/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/f/Programming/C++/stl/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bitset/fast">
+				<Option output="/mnt/f/Programming/C++/stl/cmake-build-debug-coverage/bitset" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/f/Programming/C++/stl/cmake-build-debug-coverage"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/f/Programming/C++/stl/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 bitset/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/f/Programming/C++/stl/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/f/Programming/C++/stl/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/f/Programming/C++/stl/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="map">
+				<Option output="/mnt/f/Programming/C++/stl/cmake-build-debug-coverage/map" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/f/Programming/C++/stl/cmake-build-debug-coverage"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/f/Programming/C++/stl/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 map"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/f/Programming/C++/stl/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/f/Programming/C++/stl/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/f/Programming/C++/stl/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="map/fast">
+				<Option output="/mnt/f/Programming/C++/stl/cmake-build-debug-coverage/map" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/f/Programming/C++/stl/cmake-build-debug-coverage"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/f/Programming/C++/stl/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 map/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/f/Programming/C++/stl/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/f/Programming/C++/stl/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/f/Programming/C++/stl/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="stack">
+				<Option output="/mnt/f/Programming/C++/stl/cmake-build-debug-coverage/stack" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/f/Programming/C++/stl/cmake-build-debug-coverage"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/f/Programming/C++/stl/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 stack"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/f/Programming/C++/stl/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/f/Programming/C++/stl/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/f/Programming/C++/stl/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="stack/fast">
+				<Option output="/mnt/f/Programming/C++/stl/cmake-build-debug-coverage/stack" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/f/Programming/C++/stl/cmake-build-debug-coverage"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/f/Programming/C++/stl/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 stack/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/f/Programming/C++/stl/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/f/Programming/C++/stl/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/f/Programming/C++/stl/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/mnt/f/Programming/C++/stl/cmake-build-debug-coverage"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/f/Programming/C++/stl/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/f/Programming/C++/stl/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/f/Programming/C++/stl/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/f/Programming/C++/stl/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="set">
+				<Option output="/mnt/f/Programming/C++/stl/cmake-build-debug-coverage/set" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/f/Programming/C++/stl/cmake-build-debug-coverage"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/f/Programming/C++/stl/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 set"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/f/Programming/C++/stl/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/f/Programming/C++/stl/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/f/Programming/C++/stl/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="set/fast">
+				<Option output="/mnt/f/Programming/C++/stl/cmake-build-debug-coverage/set" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/f/Programming/C++/stl/cmake-build-debug-coverage"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/f/Programming/C++/stl/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 set/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/f/Programming/C++/stl/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/f/Programming/C++/stl/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/f/Programming/C++/stl/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="queue">
+				<Option output="/mnt/f/Programming/C++/stl/cmake-build-debug-coverage/queue" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/f/Programming/C++/stl/cmake-build-debug-coverage"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/f/Programming/C++/stl/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 queue"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/f/Programming/C++/stl/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/f/Programming/C++/stl/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/f/Programming/C++/stl/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="queue/fast">
+				<Option output="/mnt/f/Programming/C++/stl/cmake-build-debug-coverage/queue" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/f/Programming/C++/stl/cmake-build-debug-coverage"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/f/Programming/C++/stl/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 queue/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/f/Programming/C++/stl/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/f/Programming/C++/stl/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/f/Programming/C++/stl/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list">
+				<Option output="/mnt/f/Programming/C++/stl/cmake-build-debug-coverage/list" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/f/Programming/C++/stl/cmake-build-debug-coverage"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/f/Programming/C++/stl/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 list"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/f/Programming/C++/stl/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/f/Programming/C++/stl/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/f/Programming/C++/stl/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list/fast">
+				<Option output="/mnt/f/Programming/C++/stl/cmake-build-debug-coverage/list" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/f/Programming/C++/stl/cmake-build-debug-coverage"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/f/Programming/C++/stl/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 list/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/f/Programming/C++/stl/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/f/Programming/C++/stl/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/f/Programming/C++/stl/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="vector">
+				<Option output="/mnt/f/Programming/C++/stl/cmake-build-debug-coverage/vector" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/f/Programming/C++/stl/cmake-build-debug-coverage"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/f/Programming/C++/stl/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 vector"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/f/Programming/C++/stl/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/f/Programming/C++/stl/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/f/Programming/C++/stl/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="vector/fast">
+				<Option output="/mnt/f/Programming/C++/stl/cmake-build-debug-coverage/vector" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/f/Programming/C++/stl/cmake-build-debug-coverage"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/f/Programming/C++/stl/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 vector/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/f/Programming/C++/stl/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/f/Programming/C++/stl/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/f/Programming/C++/stl/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/mnt/f/Programming/C++/stl/bitset/ex1.cpp">
+			<Option target="bitset"/>
+		</Unit>
+		<Unit filename="/mnt/f/Programming/C++/stl/bitset/ex2.cpp">
+			<Option target="bitset"/>
+		</Unit>
+		<Unit filename="/mnt/f/Programming/C++/stl/bitset/ex3.cpp">
+			<Option target="bitset"/>
+		</Unit>
+		<Unit filename="/mnt/f/Programming/C++/stl/bitset/ex4.cpp">
+			<Option target="bitset"/>
+		</Unit>
+		<Unit filename="/mnt/f/Programming/C++/stl/bitset/main.cpp">
+			<Option target="bitset"/>
+		</Unit>
+		<Unit filename="/mnt/f/Programming/C++/stl/bitset/main.h">
+			<Option target="bitset"/>
+		</Unit>
+		<Unit filename="/mnt/f/Programming/C++/stl/bitset/setup.cpp">
+			<Option target="bitset"/>
+		</Unit>
+		<Unit filename="/mnt/f/Programming/C++/stl/list/ex1.cpp">
+			<Option target="list"/>
+		</Unit>
+		<Unit filename="/mnt/f/Programming/C++/stl/list/ex10.cpp">
+			<Option target="list"/>
+		</Unit>
+		<Unit filename="/mnt/f/Programming/C++/stl/list/ex2.cpp">
+			<Option target="list"/>
+		</Unit>
+		<Unit filename="/mnt/f/Programming/C++/stl/list/ex3.cpp">
+			<Option target="list"/>
+		</Unit>
+		<Unit filename="/mnt/f/Programming/C++/stl/list/ex4.cpp">
+			<Option target="list"/>
+		</Unit>
+		<Unit filename="/mnt/f/Programming/C++/stl/list/ex5.cpp">
+			<Option target="list"/>
+		</Unit>
+		<Unit filename="/mnt/f/Programming/C++/stl/list/ex6.cpp">
+			<Option target="list"/>
+		</Unit>
+		<Unit filename="/mnt/f/Programming/C++/stl/list/ex7.cpp">
+			<Option target="list"/>
+		</Unit>
+		<Unit filename="/mnt/f/Programming/C++/stl/list/ex8.cpp">
+			<Option target="list"/>
+		</Unit>
+		<Unit filename="/mnt/f/Programming/C++/stl/list/ex9.cpp">
+			<Option target="list"/>
+		</Unit>
+		<Unit filename="/mnt/f/Programming/C++/stl/list/main.cpp">
+			<Option target="list"/>
+		</Unit>
+		<Unit filename="/mnt/f/Programming/C++/stl/list/main.h">
+			<Option target="list"/>
+		</Unit>
+		<Unit filename="/mnt/f/Programming/C++/stl/list/setup.cpp">
+			<Option target="list"/>
+		</Unit>
+		<Unit filename="/mnt/f/Programming/C++/stl/map/ex1.cpp">
+			<Option target="map"/>
+		</Unit>
+		<Unit filename="/mnt/f/Programming/C++/stl/map/ex10.cpp">
+			<Option target="map"/>
+		</Unit>
+		<Unit filename="/mnt/f/Programming/C++/stl/map/ex2.cpp">
+			<Option target="map"/>
+		</Unit>
+		<Unit filename="/mnt/f/Programming/C++/stl/map/ex3.cpp">
+			<Option target="map"/>
+		</Unit>
+		<Unit filename="/mnt/f/Programming/C++/stl/map/ex4.cpp">
+			<Option target="map"/>
+		</Unit>
+		<Unit filename="/mnt/f/Programming/C++/stl/map/ex5.cpp">
+			<Option target="map"/>
+		</Unit>
+		<Unit filename="/mnt/f/Programming/C++/stl/map/ex6.cpp">
+			<Option target="map"/>
+		</Unit>
+		<Unit filename="/mnt/f/Programming/C++/stl/map/ex7.cpp">
+			<Option target="map"/>
+		</Unit>
+		<Unit filename="/mnt/f/Programming/C++/stl/map/ex8.cpp">
+			<Option target="map"/>
+		</Unit>
+		<Unit filename="/mnt/f/Programming/C++/stl/map/ex9.cpp">
+			<Option target="map"/>
+		</Unit>
+		<Unit filename="/mnt/f/Programming/C++/stl/map/main.cpp">
+			<Option target="map"/>
+		</Unit>
+		<Unit filename="/mnt/f/Programming/C++/stl/map/main.h">
+			<Option target="map"/>
+		</Unit>
+		<Unit filename="/mnt/f/Programming/C++/stl/map/setup.cpp">
+			<Option target="map"/>
+		</Unit>
+		<Unit filename="/mnt/f/Programming/C++/stl/queue/ex1.cpp">
+			<Option target="queue"/>
+		</Unit>
+		<Unit filename="/mnt/f/Programming/C++/stl/queue/ex2.cpp">
+			<Option target="queue"/>
+		</Unit>
+		<Unit filename="/mnt/f/Programming/C++/stl/queue/ex3.cpp">
+			<Option target="queue"/>
+		</Unit>
+		<Unit filename="/mnt/f/Programming/C++/stl/queue/ex4.cpp">
+			<Option target="queue"/>
+		</Unit>
+		<Unit filename="/mnt/f/Programming/C++/stl/queue/ex5.cpp">
+			<Option target="queue"/>
+		</Unit>
+		<Unit filename="/mnt/f/Programming/C++/stl/queue/ex6.cpp">
+			<Option target="queue"/>
+		</Unit>
+		<Unit filename="/mnt/f/Programming/C++/stl/queue/ex7.cpp">
+			<Option target="queue"/>
+		</Unit>
+		<Unit filename="/mnt/f/Programming/C++/stl/queue/ex8.cpp">
+			<Option target="queue"/>
+		</Unit>
+		<Unit filename="/mnt/f/Programming/C++/stl/queue/main.cpp">
+			<Option target="queue"/>
+		</Unit>
+		<Unit filename="/mnt/f/Programming/C++/stl/queue/main.h">
+			<Option target="queue"/>
+		</Unit>
+		<Unit filename="/mnt/f/Programming/C++/stl/queue/setup.cpp">
+			<Option target="queue"/>
+		</Unit>
+		<Unit filename="/mnt/f/Programming/C++/stl/set/ex1.cpp">
+			<Option target="set"/>
+		</Unit>
+		<Unit filename="/mnt/f/Programming/C++/stl/set/ex10.cpp">
+			<Option target="set"/>
+		</Unit>
+		<Unit filename="/mnt/f/Programming/C++/stl/set/ex11.cpp">
+			<Option target="set"/>
+		</Unit>
+		<Unit filename="/mnt/f/Programming/C++/stl/set/ex12.cpp">
+			<Option target="set"/>
+		</Unit>
+		<Unit filename="/mnt/f/Programming/C++/stl/set/ex13.cpp">
+			<Option target="set"/>
+		</Unit>
+		<Unit filename="/mnt/f/Programming/C++/stl/set/ex2.cpp">
+			<Option target="set"/>
+		</Unit>
+		<Unit filename="/mnt/f/Programming/C++/stl/set/ex3.cpp">
+			<Option target="set"/>
+		</Unit>
+		<Unit filename="/mnt/f/Programming/C++/stl/set/ex4.cpp">
+			<Option target="set"/>
+		</Unit>
+		<Unit filename="/mnt/f/Programming/C++/stl/set/ex5.cpp">
+			<Option target="set"/>
+		</Unit>
+		<Unit filename="/mnt/f/Programming/C++/stl/set/ex6.cpp">
+			<Option target="set"/>
+		</Unit>
+		<Unit filename="/mnt/f/Programming/C++/stl/set/ex7.cpp">
+			<Option target="set"/>
+		</Unit>
+		<Unit filename="/mnt/f/Programming/C++/stl/set/ex8.cpp">
+			<Option target="set"/>
+		</Unit>
+		<Unit filename="/mnt/f/Programming/C++/stl/set/ex9.cpp">
+			<Option target="set"/>
+		</Unit>
+		<Unit filename="/mnt/f/Programming/C++/stl/set/main.cpp">
+			<Option target="set"/>
+		</Unit>
+		<Unit filename="/mnt/f/Programming/C++/stl/set/main.h">
+			<Option target="set"/>
+		</Unit>
+		<Unit filename="/mnt/f/Programming/C++/stl/set/setup.cpp">
+			<Option target="set"/>
+		</Unit>
+		<Unit filename="/mnt/f/Programming/C++/stl/stack/ex1.cpp">
+			<Option target="stack"/>
+		</Unit>
+		<Unit filename="/mnt/f/Programming/C++/stl/stack/ex2.cpp">
+			<Option target="stack"/>
+		</Unit>
+		<Unit filename="/mnt/f/Programming/C++/stl/stack/ex3.cpp">
+			<Option target="stack"/>
+		</Unit>
+		<Unit filename="/mnt/f/Programming/C++/stl/stack/ex4.cpp">
+			<Option target="stack"/>
+		</Unit>
+		<Unit filename="/mnt/f/Programming/C++/stl/stack/ex5.cpp">
+			<Option target="stack"/>
+		</Unit>
+		<Unit filename="/mnt/f/Programming/C++/stl/stack/ex6.cpp">
+			<Option target="stack"/>
+		</Unit>
+		<Unit filename="/mnt/f/Programming/C++/stl/stack/ex7.cpp">
+			<Option target="stack"/>
+		</Unit>
+		<Unit filename="/mnt/f/Programming/C++/stl/stack/ex8.cpp">
+			<Option target="stack"/>
+		</Unit>
+		<Unit filename="/mnt/f/Programming/C++/stl/stack/ex9.cpp">
+			<Option target="stack"/>
+		</Unit>
+		<Unit filename="/mnt/f/Programming/C++/stl/stack/main.cpp">
+			<Option target="stack"/>
+		</Unit>
+		<Unit filename="/mnt/f/Programming/C++/stl/stack/main.h">
+			<Option target="stack"/>
+		</Unit>
+		<Unit filename="/mnt/f/Programming/C++/stl/vector/ex1.cpp">
+			<Option target="vector"/>
+		</Unit>
+		<Unit filename="/mnt/f/Programming/C++/stl/vector/ex10.cpp">
+			<Option target="vector"/>
+		</Unit>
+		<Unit filename="/mnt/f/Programming/C++/stl/vector/ex2.cpp">
+			<Option target="vector"/>
+		</Unit>
+		<Unit filename="/mnt/f/Programming/C++/stl/vector/ex3.cpp">
+			<Option target="vector"/>
+		</Unit>
+		<Unit filename="/mnt/f/Programming/C++/stl/vector/ex4.cpp">
+			<Option target="vector"/>
+		</Unit>
+		<Unit filename="/mnt/f/Programming/C++/stl/vector/ex5.cpp">
+			<Option target="vector"/>
+		</Unit>
+		<Unit filename="/mnt/f/Programming/C++/stl/vector/ex6.cpp">
+			<Option target="vector"/>
+		</Unit>
+		<Unit filename="/mnt/f/Programming/C++/stl/vector/ex7.cpp">
+			<Option target="vector"/>
+		</Unit>
+		<Unit filename="/mnt/f/Programming/C++/stl/vector/ex8.cpp">
+			<Option target="vector"/>
+		</Unit>
+		<Unit filename="/mnt/f/Programming/C++/stl/vector/ex9.cpp">
+			<Option target="vector"/>
+		</Unit>
+		<Unit filename="/mnt/f/Programming/C++/stl/vector/main.cpp">
+			<Option target="vector"/>
+		</Unit>
+		<Unit filename="/mnt/f/Programming/C++/stl/vector/main.h">
+			<Option target="vector"/>
+		</Unit>
+		<Unit filename="/mnt/f/Programming/C++/stl/vector/setup.cpp">
+			<Option target="vector"/>
+		</Unit>
+		<Unit filename="/mnt/f/Programming/C++/stl/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

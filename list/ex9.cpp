@@ -20,9 +20,9 @@ namespace list_exercises {
             return vec;
         };
         vector<int> v = initializeVector(10);
-        printIntVector(v);
+        printVector(v);
         verifyFunction(v, 3);
-        printIntVector(v);
+        printVector(v);
     }
 
 

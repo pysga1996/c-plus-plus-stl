@@ -8,7 +8,7 @@ namespace vector_exercises {
     void ex9() {
         vector<int> v = randomIntVector(10);
         cout << "Vector randomized: ";
-        printIntVector(v);
+        printVector(v);
         cout << "Sum of the first and last elements: " << sumOfFirstAndLastElement(v) << endl;
     }
 

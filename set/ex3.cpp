@@ -6,7 +6,7 @@ namespace set_exercises {
 
     void ex3() {
         vector<int> v = randomIntVector(10);
-        printIntVector(v);
+        printVector(v);
         cout << "Second order of vector: " << secondOrder(v) << endl;
     }
 

@@ -19,9 +19,9 @@ namespace list_exercises {
             return vec;
         };
         vector<int> v = initializeVector(8);
-        printIntVector(v);
+        printVector(v);
         v = verifyFunction(v, 2, 5);
-        printIntVector(v);
+        printVector(v);
     }
 
 }

@@ -35,28 +35,6 @@ namespace vector_exercises {
         return a;
     }
 
-    void printIntVector(vector<int> &v) {
-        cout << "Vector: [";
-        for (int i = 0; i < v.size(); i++) {
-            cout << v[i];
-            if (i != v.size() - 1) {
-                cout << ", ";
-            }
-        }
-        cout << "]" << endl;
-    }
-
-    void printStringVector(vector<string> &v) {
-        cout << "Vector: [";
-        for (int i = 0; i < v.size(); i++) {
-            cout << v[i];
-            if (i != v.size() - 1) {
-                cout << ", ";
-            }
-        }
-        cout << "]" << endl;
-    }
-
     string genRandomString(int length) {
         string randomstring;
         string characters = "1234567890abcdefghijklmnoprstuvyzxwq";

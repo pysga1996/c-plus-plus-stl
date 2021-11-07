@@ -10,7 +10,7 @@ namespace list_exercises {
             return sumOfAllElements(l);
         };
         vector<int> v = initializeVector(7);
-        printIntVector(v);
+        printVector(v);
         cout << "Sum of all element in list: " << verifyFunction(v) << endl;
     }
 

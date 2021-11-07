@@ -12,9 +12,9 @@ namespace list_exercises {
             return vec;
         };
         vector<int> v = randomIntVector(10);
-        printIntVector(v);
+        printVector(v);
         v = verifyFunction(v);
-        printIntVector(v);
+        printVector(v);
     }
 
     list<int> sortLinkedList(list<int> l) {

@@ -8,10 +8,10 @@ namespace vector_exercises {
     void ex8() {
         vector<int> v = randomIntVector(10);
         cout << "Vector before remove last element: ";
-        printIntVector(v);
+        printVector(v);
         v = removeLastElement(v);
         cout << "Vector after remove last element: ";
-        printIntVector(v);
+        printVector(v);
     }
 
     vector<int> removeLastElement(vector<int> v) {

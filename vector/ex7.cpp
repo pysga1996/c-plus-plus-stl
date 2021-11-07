@@ -8,7 +8,7 @@ namespace vector_exercises {
     void ex7() {
         vector<string> v = randomStringVector(10);
         cout << "Vector randomized: ";
-        printStringVector(v);
+        printVector(v);
         vector<string> result = findLongestStrings(v);
         cout << "Longest string (s) in the vector: ";
         for (auto &i: result) {

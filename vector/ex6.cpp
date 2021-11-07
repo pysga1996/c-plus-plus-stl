@@ -8,7 +8,7 @@ namespace vector_exercises {
     void ex6() {
         vector<int> v = randomIntVector(10);
         cout << "Vector randomized: ";
-        printIntVector(v);
+        printVector(v);
         cout << "Maximum of the product of two consecutive integers in the vector: " << maxProductOfAdjacentElements(v)
              << endl;
     }

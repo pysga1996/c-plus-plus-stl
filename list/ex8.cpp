@@ -12,9 +12,9 @@ namespace list_exercises {
             return vec;
         };
         vector<int> v = initializeVector(10);
-        printIntVector(v);
+        printVector(v);
         v = verifyFunction(v, 7);
-        printIntVector(v);
+        printVector(v);
     }
 
     list<int> removeElements(list<int> linkedList, int n) {

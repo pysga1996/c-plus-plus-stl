@@ -11,12 +11,12 @@ namespace set_exercises {
         vector<vector<int>> m{v1, v2, v3, v1, v3, v1, v2};
         cout << "Duplicated vector: " << endl;
         for (auto & i : m) {
-            printIntVector(i);
+            printVector(i);
         }
         m = uniqueRows(m);
         cout << "After removing duplicated elements: " << endl;
         for (auto & i : m) {
-            printIntVector(i);
+            printVector(i);
         }
     }
 

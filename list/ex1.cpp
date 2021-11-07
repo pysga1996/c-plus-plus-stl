@@ -16,6 +16,6 @@ namespace list_exercises {
             return res;
         };
         vector<int> v = verifyFunction(5);
-        printIntVector(v);
+        printVector(v);
     }
 }

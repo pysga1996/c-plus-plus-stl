@@ -7,7 +7,7 @@ namespace bitset_exercises {
     void ex3() {
         cout << "Activities to produces 5 virus: " << endl;
         vector<int> v = checkActivity(5);
-        printIntVector(v);
+        printVector(v);
     }
 
     vector<int> checkActivity(int n) {

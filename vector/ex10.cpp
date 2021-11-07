@@ -8,10 +8,10 @@ namespace vector_exercises {
     void ex10() {
         vector<int> v = randomIntVector(10);
         cout << "Vector randomized: ";
-        printIntVector(v);
+        printVector(v);
         v = removeElements(v, 3, 7);
         cout << "Vector after remove from element #3 to element #7: ";
-        printIntVector(v);
+        printVector(v);
     }
 
     std::vector<int> removeElements(vector<int> v, int l, int r) {

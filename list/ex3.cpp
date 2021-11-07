@@ -12,9 +12,9 @@ namespace list_exercises {
             return ans;
         };
         vector<int> v = initializeVector(5);
-        printIntVector(v);
+        printVector(v);
         v = verifyFunction(v);
-        printIntVector(v);
+        printVector(v);
     }
 
     list<int> deleteFrontBack(list<int> l) {
