@@ -1,6 +1,7 @@
 #include "main.h"
 
 namespace set_exercises {
+
     using namespace std;
 
     set<int> initializeSet(int n) {
