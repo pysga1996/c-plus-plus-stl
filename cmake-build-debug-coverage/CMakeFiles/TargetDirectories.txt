@@ -1,9 +1,0 @@
-/mnt/f/Programming/C++/stl/cmake-build-debug-coverage/CMakeFiles/rebuild_cache.dir
-/mnt/f/Programming/C++/stl/cmake-build-debug-coverage/CMakeFiles/bitset.dir
-/mnt/f/Programming/C++/stl/cmake-build-debug-coverage/CMakeFiles/map.dir
-/mnt/f/Programming/C++/stl/cmake-build-debug-coverage/CMakeFiles/stack.dir
-/mnt/f/Programming/C++/stl/cmake-build-debug-coverage/CMakeFiles/edit_cache.dir
-/mnt/f/Programming/C++/stl/cmake-build-debug-coverage/CMakeFiles/set.dir
-/mnt/f/Programming/C++/stl/cmake-build-debug-coverage/CMakeFiles/queue.dir
-/mnt/f/Programming/C++/stl/cmake-build-debug-coverage/CMakeFiles/list.dir
-/mnt/f/Programming/C++/stl/cmake-build-debug-coverage/CMakeFiles/vector.dir
