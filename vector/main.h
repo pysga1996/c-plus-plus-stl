@@ -2,6 +2,7 @@
 #define STL_MAIN_H
 #include <iostream>
 #include <vector>
+#include <random>
 
 typedef std::vector<char> char_array;
 

@@ -4,6 +4,7 @@
 #include <list>
 #include <vector>
 #include <functional>
+#include <random>
 
 namespace list_exercises {
 

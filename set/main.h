@@ -3,6 +3,7 @@
 #include <vector>
 #include <set>
 #include <iostream>
+#include <random>
 
 namespace set_exercises {
 
