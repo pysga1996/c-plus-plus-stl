@@ -1,25 +1,32 @@
 cmake_minimum_required(VERSION 3.16)
-project(stl)
+project(cpp-stl-practice)
 
 set(CMAKE_CXX_STANDARD 20)
 
-file(GLOB_RECURSE VECTOR_SOURCES RELATIVE ${CMAKE_SOURCE_DIR} "vector/*.cpp")
-add_executable(vector ${VECTOR_SOURCES})
+#Add the google test subdirectory
+add_subdirectory(lib/googletest)
 
-file(GLOB_RECURSE LIST_SOURCES RELATIVE ${CMAKE_SOURCE_DIR} "list/*.cpp")
-add_executable(list ${LIST_SOURCES})
+#include googletest/include dir
+include_directories(lib/googletest/googletest/include)
 
-file(GLOB_RECURSE SET_SOURCES RELATIVE ${CMAKE_SOURCE_DIR} "set/*.cpp")
-add_executable(set ${SET_SOURCES})
+#include the googlemock/include dir
+include_directories(lib/googletest/googlemock/include)
 
-file(GLOB_RECURSE STACK_SOURCES RELATIVE ${CMAKE_SOURCE_DIR} "stack/*.cpp")
-add_executable(stack ${STACK_SOURCES})
+include_directories(lib lib/cpp-commons/common-collection lib/cpp-commons/common-matrix lib/cpp-commons/common-number lib/cpp-commons/common-string lib/cpp-commons/common-util)
 
-file(GLOB_RECURSE QUEUE_SOURCES RELATIVE ${CMAKE_SOURCE_DIR} "queue/*.cpp")
-add_executable(queue ${QUEUE_SOURCES})
+link_directories(lib)
 
-file(GLOB_RECURSE MAP_SOURCES RELATIVE ${CMAKE_SOURCE_DIR} "map/*.cpp")
-add_executable(map ${MAP_SOURCES})
+file(GLOB_RECURSE CPP_STL_PRACTICE_SOURCE RELATIVE ${CMAKE_SOURCE_DIR} src/*.cpp src/*/*.cpp lib/cpp-commons/*.h lib/cpp-commons/*/*.h)
+add_executable(cpp-stl-practice ${CPP_STL_PRACTICE_SOURCE})
 
-file(GLOB_RECURSE BITSET_SOURCES RELATIVE ${CMAKE_SOURCE_DIR} "bitset/*.cpp")
-add_executable(bitset ${BITSET_SOURCES})
+target_link_libraries(cpp-stl-practice LINK_PUBLIC cpp-commons)
+
+file(GLOB_RECURSE CPP_STL_PRACTICE_TEST RELATIVE ${CMAKE_SOURCE_DIR} src/*/*.cpp test/*.cpp test/*/*.cpp lib/*.h lib/*/*.h lib/*/*/*.h)
+add_executable(cpp-stl-practice-test ${CPP_STL_PRACTICE_TEST})
+
+#Link with GoogleTest
+target_link_libraries(cpp-stl-practice-test gtest gtest_main cpp-commons)
+
+#Link with GoogleMock
+target_link_libraries(cpp-stl-practice-test gmock gmock_main cpp-commons)
+
