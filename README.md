@@ -1,2 +1,2 @@
-# c-plus-plus-stl
-C++ Standard Template Library
+# cpp-stl-practice
+C++ Standard Template Library practice
